@@ -1,0 +1,28 @@
+html,body {
+  margin: 0; padding: 0;
+}
+* {
+box-sizing: border-box;
+}
+#header {
+  position: fixed; top: 0; left: 0; right: 0; height: 55px; 
+  padding: 5px 10px; border: 2px solid deepskyblue;
+  background: whitesmoke;
+}
+#header .title {
+  height: 100%; font-size: x-large; margin-top: 11px;
+  margin-left: 69px;
+}
+.map {
+  position: fixed; top: 55px; left: 0; right: 0;
+  bottom: 20px; border: 3px solid blue;
+}
+#footer {
+  position: fixed; left: 0; right: 0; bottom: 0;
+  background: whitesmoke;
+  border: 4px solid yellow; height: 20px; font-size: small;
+}
+#legend {
+  display: block; top: 126px; left: 13px; z-index: 999;
+  position: fixed;
+}
